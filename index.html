@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>หน่วยประมวลผลกลาง (CPU)</h2>
+
+    <model-viewer
+      id="model"
+      src="./intel_cpu.glb"
+      alt="โมเดลหน่วยประมวลผลกลาง 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่ประมวลผลคำสั่ง คำนวณ และควบคุมการทำงานต่าง ๆ 
+	ของคอมพิวเตอร์ เปรียบเสมือนสมองของคอมพิวเตอร์
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>เมนบอร์ด (Motherboard)</h2>
+
+    <model-viewer
+      id="model"
+      src="./mainboard.glb"
+      alt="โมเดลเมนบอร์ด 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	เป็นแผงวงจรหลักที่ใช้เชื่อมต่ออุปกรณ์ต่าง ๆ ภายในคอมพิวเตอร์ 
+	ทำหน้าที่เป็นศูนย์กลางในการติดต่อสื่อสารระหว่างอุปกรณ์
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>หน่วยความจำหลัก (RAM)</h2>
+
+    <model-viewer
+      id="model"
+      src="./crucial_8_gb_ddr4_2133_ram.glb"
+      alt="โมเดลหน่วยความจำหลัก 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่จัดเก็บข้อมูลชั่วคราวระหว่างที่คอมพิวเตอร์กำลังทำงาน ช่วยให้ CPU 
+	เรียกใช้ข้อมูลและโปรแกรมที่กำลังเปิดใช้งานได้รวดเร็ว
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>การ์ดจอ (GPU)</h2>
+
+    <model-viewer
+      id="model"
+      src="./rx_480_gpu.glb"
+      alt="โมเดลการ์ดจอ 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่ประมวลผลข้อมูลด้านภาพและกราฟิก เพื่อส่งภาพไปแสดงผลบนหน้าจอ 
+	มีความสำคัญกับงานกราฟิก การตัดต่อวิดีโอ และการเล่นเกม
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>อุปกรณ์จัดเก็บข้อมูล (HDD / SSD)</h2>
+
+    <model-viewer
+      id="model"
+      src="./samsung_990_pro_ssd.glb"
+      alt="โมเดลอุปกรณ์จัดเก็บข้อมูล 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่จัดเก็บระบบปฏิบัติการ โปรแกรม และไฟล์ต่าง ๆ โดย HDD 
+	ใช้จานแม่เหล็กในการจัดเก็บข้อมูล ส่วน SSD ใช้หน่วยความจำแฟลชและไม่มีชิ้นส่วนที่หมุนได้
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>พาวเวอร์ซัพพลาย (Power Supply Unit: PSU)</h2>
+
+    <model-viewer
+      id="model"
+      src="./psu_power_supply_unit.glb"
+      alt="โมเดลพาวเวอร์ซัพพลาย 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่แปลงและจ่ายพลังงานไฟฟ้าให้กับอุปกรณ์ต่าง ๆ 
+	ภายในคอมพิวเตอร์ เพื่อให้อุปกรณ์สามารถทำงานได้
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>ระบบระบายความร้อน (Cooling System)</h2>
+
+    <model-viewer
+      id="model"
+      src="./free_amd_wraith_stealth_cpu_cooler.glb"
+      alt="โมเดลระบบระบายความร้อน 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่ช่วยระบายความร้อนที่เกิดขึ้นจากการทำงานของอุปกรณ์ เช่น CPU 
+	และการ์ดจอ เพื่อป้องกันความร้อนสะสมและช่วยให้อุปกรณ์ทำงานได้อย่างเหมาะสม
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2><!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Computer Lab</title>
+
+  <script type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f1f5f9;
+      margin: 0;
+      padding: 20px;
+      color: #1e293b;
+    }
+
+    .card {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+    }
+
+    model-viewer {
+      width: 100%;
+      height: 400px;
+      background: #e2e8f0;
+      border-radius: 12px;
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>3D Computer Lab</h1>
+    <h2>เคสคอมพิวเตอร์ (Computer Case)</h2>
+
+    <model-viewer
+      id="model"
+      src="./pc_case.glb"
+      alt="โมเดลเคสคอมพิวเตอร์ 3 มิติ"
+      camera-controls
+      auto-rotate
+      ar
+      ar-modes="scene-viewer webxr"
+      ar-placement="floor"
+      shadow-intensity="1">
+
+    
+    <p>
+      	ทำหน้าที่เป็นโครงสร้างสำหรับติดตั้งและจัดเก็บอุปกรณ์ต่าง ๆ 
+	ภายในคอมพิวเตอร์ เช่น เมนบอร์ด CPU การ์ดจอ และอุปกรณ์จัดเก็บข้อมูล 
+	ช่วยปกป้องอุปกรณ์จากฝุ่นละอองและการกระแทก อีกทั้งยังช่วยจัดระเบียบอุปกรณ์
+	และรองรับการไหลเวียนของอากาศภายในเครื่องเพื่อระบายความร้อน
+    </p>
+
+    <p>
+      	ลากเพื่อหมุนโมเดล 
+    </p>
+  </div>
+</body>
+</html>
